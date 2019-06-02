@@ -27,10 +27,13 @@ def get_contestant_name(data, occupation)
     end
   end 
 end
-def count_contestants_by_hometown(data, hometown)
+def count_contestants_by_hometown(data, hometowno)
    data.each do |k,v|
- v.each 
- 
+      v.each do |item|
+        item.each do |k1,v1|
+          if (k1=="homet")
+   end      
+ end 
 end
 
 def get_occupation(data, hometown)
