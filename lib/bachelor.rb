@@ -32,7 +32,8 @@ def count_contestants_by_hometown(data, hometowno
    data.each do |k,v|
       v.each do |item|
         item.each do |k1,v1|
-          if (k1=="homet")
+          if (k1=="hometown")
+            if 
  end 
 end
 
