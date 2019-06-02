@@ -72,7 +72,7 @@ def get_average_age_for_season(data, season)
   end
   puts total
   puts number_of_contestants
-  puts total/number_of_contestants
+  puts (total/number_of_contestants.to_f)
   (total/number_of_contestants.to_f).ceil
  
 end
