@@ -65,7 +65,7 @@ def get_average_age_for_season(data, season)
   data.each do |k,v|
     if (k==season)
       v.each do |item|
-        total = total + item["age"]
+        total = total + item["age"].to_i
         number_of_contestants = number_of_contestants + 1;
       end
     end  
