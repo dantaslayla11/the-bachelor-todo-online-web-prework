@@ -36,7 +36,7 @@ def get_occupation(data, hometown)
         item.each do |k1,v1|
           if (k1=="hometown")
             if hometown==v1
-              return ["occupation"]
+              return occupation
             end 
           end
         end
