@@ -34,8 +34,8 @@ def get_occupation(data, hometown)
      data.each do |k,v|
       v.each do |item|
         item.each do |k1,v1|
-          if (k1=="hometown")
-            if hometown==v1
+          if (k1=="occupation")
+            if occupation==v1
               return ["name"]
             end 
           end
