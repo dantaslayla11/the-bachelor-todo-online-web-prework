@@ -33,7 +33,7 @@ def count_contestants_by_hometown(data, hometown)
         item.each do |k1,v1|
           if (k1=="hometown")
             if hometown==
-              return ["name"]
+              return "name"
             end 
           end
         end
@@ -46,7 +46,7 @@ def get_occupation(data, hometown)
         item.each do |k1,v1|
           if (k1=="hometown")
             if hometown==
-              return ["name"]
+              return "name"
             end 
           end
         end
